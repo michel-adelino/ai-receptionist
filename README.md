@@ -29,20 +29,22 @@ This video shows the full AI receptionist in action — using voice input, respo
 ```
 ai-receptionist/
 ├── app/
-│   ├── main.py
-│   ├── chatbot.py
-│   ├── audio.py
-│   ├── st_custom_components/
-│   │   └── st_audiorec/
-│   │       └── frontend/
-│   │           └── build/
-│   └── utils/
-│       ├── scraper_example.py
-│       └── concatenate.py
+│ ├── main.py # Final Streamlit UI
+│ ├── chatbot.py # Chat logic w/ LangChain
+│ ├── audio.py # Whisper + ElevenLabs utils
+│ ├── st_custom_components/
+│ │ └── st_audiorec/
+│ │ └── frontend/
+│ │ └── build/ # Custom audio recorder component
+│ └── utils/
+│ ├── scraper_example.py # Scraping example (customize per site)
+│ └── concatenate.py # Document concatenation utility
 ├── new_faiss_index/
-├── requirements.txt
-├── .env.example
-├── README.md
+│ ├── index.faiss # FAISS vector index
+│ └── index.pkl # Pickled metadata index
+├── .env.example # API key placeholders
+├── requirements.txt # Python dependencies
+├── README.md # Project overview and instructions
 ```
 
 ## 🛠️ Setup
