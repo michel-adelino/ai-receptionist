@@ -1,0 +1,11 @@
+streamlit
+openai
+langchain
+faiss-cpu
+whisper
+elevenlabs
+numpy
+pandas
+python-dotenv
+streamlit-chat
+sentence-transformers
