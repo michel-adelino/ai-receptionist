@@ -2,6 +2,12 @@
 
 A voice-enabled, company-aware AI receptionist built with OpenAI, Whisper, LangChain, FAISS, and ElevenLabs — all trained on over 100+ scraped pages from the Systems Limited website.
 
+## 📽️ Demo
+
+🎥 [Click here to watch the recorded demo](https://drive.google.com/file/d/1JInIiivD3RBrqDqMrg24oT3hcPp_cvXB/view)
+
+This video shows the full AI receptionist in action — using voice input, responding intelligently, and speaking back in a natural voice.
+
 ## 🚀 Features
 
 - 🎤 **Voice-to-Voice Interaction**: Speak to the AI and hear it respond.
