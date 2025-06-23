@@ -64,8 +64,8 @@ ai-receptionist/
 
 ## 👨‍💻 Built By
 
-**[Your Name]** – Machine Learning Intern at Systems Limited  
-Internship Project (Summer 2024)
+**Mousa Pirzada** – Machine Learning Intern at Systems Limited  
+Internship Project (Summer 2023)
 
 ## 🌐 License
 
