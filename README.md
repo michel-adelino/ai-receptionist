@@ -1,28 +1,42 @@
-# AI Receptionist for Systems Limited 🧠🎙️
+# AI Receptionist 🧠🎙️
 
-A voice-enabled, company-aware AI receptionist built with OpenAI, Whisper, LangChain, FAISS, and ElevenLabs — all trained on over 100+ scraped pages from the Systems Limited website.
+A voice-enabled, company-aware AI receptionist built with OpenAI, Whisper, LangChain, FAISS, and ElevenLabs — all trained on scraped website data.
 
 ## 📽️ Demo
 
-🎥 [Click here to watch the recorded demo](https://drive.google.com/file/d/1JInIiivD3RBrqDqMrg24oT3hcPp_cvXB/view)
+<video src="showcase.mp4" controls width="100%"></video>
 
 This video shows the full AI receptionist in action — using voice input, responding intelligently, and speaking back in a natural voice.
 
 ## 🚀 Features
 
-- 🎤 **Voice-to-Voice Interaction**: Speak to the AI and hear it respond.
-- 🧠 **Knowledge-Rich Answers**: Powered by your own website data.
-- 🔍 **LangChain + FAISS**: Retrieval-Augmented Generation for accurate responses.
-- 🧾 **Whisper & ElevenLabs**: Best-in-class transcription + text-to-speech.
-- 💻 **Streamlit Frontend**: Clean UI with text or speech input options.
+- 🎙️ Voice-to-voice interaction (ask a question, hear a reply)
+- 📚 Trained on 100+ webpages scraped from systems ltd
+- 🧠 LangChain + GPT-3.5 for accurate retrieval and context
+- 🗣️ ElevenLabs voice output with natural tone
+- 💻 Built in Streamlit — no setup, just run and speak
 
-## 🧩 How It Works
+---
 
-1. **Web Scraping**: 100+ pages from Systems Limited’s website were scraped into a CSV file.
-2. **Data Embedding**: Content was embedded using Sentence Transformers via LangChain.
-3. **FAISS Index**: All embeddings were stored in a FAISS vector database.
-4. **Query Engine**: User questions are matched with relevant documents and answered using OpenAI’s LLM.
-5. **Voice Interaction**: Whisper handles speech-to-text, and ElevenLabs converts responses back into speech.
+## 🧰 Tech Stack
+
+| Purpose            | Tools Used                        |
+|-------------------|------------------------------------|
+| Speech-to-Text     | [Whisper](https://github.com/openai/whisper) (OpenAI) |
+| Knowledge Retrieval | FAISS + LangChain                |
+| Text-to-Speech     | [ElevenLabs](https://www.elevenlabs.io) |
+| Interface          | Streamlit                         |
+| Language Model     | GPT-3.5 (via LangChain)           |
+| Web Scraping       | BeautifulSoup                     |
+
+## 🧠 How It Works
+
+1. **Scrape company content** → chunk into documents  
+2. **Embed content using OpenAI embeddings + FAISS index**  
+3. **Capture voice via Whisper**, convert to text  
+4. **Query LangChain’s retrieval chain** → generate response  
+5. **Use ElevenLabs** to speak the result out loud  
+6. **Streamlit UI** glues the entire experience together
 
 ## 📁 Project Structure
 
@@ -69,11 +83,6 @@ ai-receptionist/
    ```
    streamlit run app/main.py
    ```
-
-## 👨‍💻 Built By
-
-**Mousa Pirzada** – Machine Learning Intern at Systems Limited  
-Internship Project (Summer 2023)
 
 ## 🌐 License
 
