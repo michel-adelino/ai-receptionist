@@ -4,7 +4,7 @@ A voice-enabled, company-aware AI receptionist built with OpenAI, Whisper, LangC
 
 ## 📽️ Demo
 
-<video src="showcase.mp4" controls width="100%"></video>
+<video src="./showcase.mp4" controls width="100%"></video>
 
 This video shows the full AI receptionist in action — using voice input, responding intelligently, and speaking back in a natural voice.
 
